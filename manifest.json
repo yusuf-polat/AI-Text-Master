@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "AI Assistant",
+  "name": "AI Text Master",
   "version": "1.0",
-  "description": "OpenAI API kullanarak herhangi bir web sitesinde AI asistanı çağırın",
+  "description": "Çok Amaçlı AI Metin Asistanı - Düzenleme, Çeviri, Özetleme ve Daha Fazlası",
   "permissions": [
     "activeTab",
     "contextMenus",
@@ -24,7 +24,7 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "AI Assistant",
+    "default_title": "AI Text Master",
     "default_icon": {
       "16": "icons/icon16.png",
       "32": "icons/icon32.png",
