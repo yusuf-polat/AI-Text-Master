@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="icons/icon32.png" alt="AI Assistant" class="logo">
+            <h1>AI Assistant</h1>
+        </div>
+        
+        <div class="settings-section" id="settingsSection">
+            <h3>Gemini API Ayarları</h3>
+            <div class="input-group">
+                <label for="apiKey">Gemini API Anahtarı:</label>
+                <input type="password" id="apiKey" placeholder="AIza...">
+                <button id="saveApiKey">Kaydet</button>
+            </div>
+            <div class="status" id="apiStatus"></div>
+            
+            <h3>AI Tool Ayarları</h3>
+            <div class="input-group">
+                <label for="toolPurpose">AI Tool Ne İçin Kullanılsın:</label>
+                <select id="toolPurpose">
+                    <option value="text_editing">Metin Düzenleme ve Noktalama</option>
+                    <option value="translation">Çeviri</option>
+                    <option value="summarization">Özetleme</option>
+                    <option value="grammar_check">Dilbilgisi Kontrolü</option>
+                    <option value="style_improvement">Yazım Stili İyileştirme</option>
+                    <option value="custom">Özel Amaç</option>
+                </select>
+            </div>
+            
+            <div class="input-group" id="translationSettings" style="display: none;">
+                <label for="targetLanguage">Hedef Dil:</label>
+                <select id="targetLanguage">
+                    <option value="turkish">Türkçe</option>
+                    <option value="english">İngilizce</option>
+                    <option value="german">Almanca</option>
+                    <option value="french">Fransızca</option>
+                    <option value="spanish">İspanyolca</option>
+                    <option value="italian">İtalyanca</option>
+                    <option value="russian">Rusça</option>
+                    <option value="arabic">Arapça</option>
+                    <option value="chinese">Çince</option>
+                    <option value="japanese">Japonca</option>
+                    <option value="korean">Korece</option>
+                    <option value="portuguese">Portekizce</option>
+                    <option value="dutch">Hollandaca</option>
+                    <option value="swedish">İsveççe</option>
+                    <option value="norwegian">Norveççe</option>
+                    <option value="danish">Danca</option>
+                    <option value="finnish">Fince</option>
+                    <option value="polish">Lehçe</option>
+                    <option value="czech">Çekçe</option>
+                    <option value="hungarian">Macarca</option>
+                    <option value="romanian">Romence</option>
+                    <option value="bulgarian">Bulgarca</option>
+                    <option value="greek">Yunanca</option>
+                    <option value="hebrew">İbranice</option>
+                    <option value="hindi">Hintçe</option>
+                    <option value="thai">Tayca</option>
+                    <option value="vietnamese">Vietnamca</option>
+                    <option value="indonesian">Endonezce</option>
+                    <option value="malay">Malayca</option>
+                    <option value="filipino">Filipince</option>
+                </select>
+            </div>
+            
+            <div class="input-group" id="customPromptGroup" style="display: none;">
+                <label for="customPrompt">Özel Prompt:</label>
+                <textarea id="customPrompt" placeholder="AI'ya ne yapmasını istediğinizi yazın..."></textarea>
+            </div>
+            
+            <div class="input-group">
+                <button id="saveToolSettings">Tool Ayarlarını Kaydet</button>
+            </div>
+            <div class="status" id="toolStatus"></div>
+            
+            <div class="input-group">
+                <button id="backToChat">Chat'e Dön</button>
+            </div>
+        </div>
+        
+        <div class="chat-section" id="chatSection" style="display: none;">
+            <div class="chat-header">
+                <h3 id="chatTitle">Metin Düzenleyici</h3>
+                <button id="openSettings" class="settings-btn">⚙️ Ayarlar</button>
+            </div>
+            <div class="input-group">
+                <label for="userInput" id="userInputLabel">Düzeltilecek Metin:</label>
+                <textarea id="userInput" placeholder="İşlemek istediğiniz metni buraya yazın..."></textarea>
+                <button id="sendMessage">İşle</button>
+            </div>
+            <div class="response" id="response"></div>
+        </div>
+        
+        <div class="instructions">
+            <p><strong>Kullanım:</strong></p>
+            <ul>
+                <li>Herhangi bir metni seçin ve sağ tıklayın</li>
+                <li>"AI ile Analiz Et" seçeneğini tıklayın</li>
+                <li>Veya bu popup'tan doğrudan soru sorun</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
+

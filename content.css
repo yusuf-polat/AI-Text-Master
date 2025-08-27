@@ -1,0 +1,179 @@
+/* Content Script CSS for AI Assistant Extension */
+
+/* Popup animasyonu */
+@keyframes aiPopupSlideIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* AI Popup stilleri */
+#ai-assistant-popup {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+#ai-assistant-popup .ai-popup-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ai-assistant-popup .ai-popup-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#ai-assistant-popup .ai-popup-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+#ai-assistant-popup .ai-popup-close:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#ai-assistant-popup .ai-popup-content {
+    padding: 20px;
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+#ai-assistant-popup .original-text {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+#ai-assistant-popup .original-text strong {
+    color: #333;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#ai-assistant-popup .original-text p {
+    margin: 0;
+    color: #666;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+#ai-assistant-popup .ai-response strong {
+    color: #333;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#ai-assistant-popup .response-content {
+    color: #444;
+    line-height: 1.6;
+    font-size: 14px;
+    white-space: pre-wrap;
+}
+
+/* Loading stilleri */
+#ai-assistant-popup .ai-loading {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+#ai-assistant-popup .loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #667eea;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 15px;
+}
+
+#ai-assistant-popup .ai-loading p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Hata mesajı stilleri */
+#ai-assistant-popup .error-message {
+    text-align: center;
+    padding: 20px;
+}
+
+#ai-assistant-popup .error-message p {
+    margin: 0 0 10px 0;
+    color: #dc3545;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#ai-assistant-popup .error-message small {
+    color: #666;
+    font-size: 12px;
+}
+
+/* Scrollbar stilleri */
+#ai-assistant-popup .ai-popup-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+#ai-assistant-popup .ai-popup-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+#ai-assistant-popup .ai-popup-content::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+#ai-assistant-popup .ai-popup-content::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Responsive tasarım */
+@media (max-width: 600px) {
+    #ai-assistant-popup {
+        width: 95% !important;
+        max-width: none !important;
+    }
+    
+    #ai-assistant-popup .ai-popup-content {
+        padding: 15px;
+    }
+    
+    #ai-assistant-popup .ai-popup-header {
+        padding: 12px 15px;
+    }
+}
+

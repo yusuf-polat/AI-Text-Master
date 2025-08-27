@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .test-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .test-text {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .instructions {
+            background: #e8f5e8;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .language-examples {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .language-example {
+            background: #f0f8ff;
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 3px solid #667eea;
+        }
+        .language-example h4 {
+            margin: 0 0 8px 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>🤖 AI Assistant Extension Test Sayfası</h1>
+    
+    <div class="instructions">
+        <h3>📋 Test Talimatları:</h3>
+        <ol>
+            <li>Extension'ı yükleyin ve popup'ı açın</li>
+            <li>API anahtarınızı girin ve kaydedin</li>
+            <li>AI Tool ayarlarını yapılandırın</li>
+            <li>Aşağıdaki metinlerden birini seçin ve sağ tıklayın</li>
+            <li>"AI ile Analiz Et" seçeneğini tıklayın</li>
+            <li>Sonuçları kontrol edin</li>
+        </ol>
+    </div>
+
+    <div class="test-section">
+        <h2>📝 Metin Düzenleme Testi</h2>
+        <p>Bu metni seçin ve metin düzenleme için test edin:</p>
+        <div class="test-text">
+            merhaba nasılsın bugün hava çok güzel değil mi ben çok mutluyum çünkü yeni bir proje üzerinde çalışıyorum ve çok heyecanlıyım
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>🌐 Çeviri Testi</h2>
+        <p>Bu metinleri seçin ve farklı dillere çeviri için test edin. Popup'ta "Çeviri" seçin ve hedef dili belirleyin:</p>
+        
+        <div class="language-examples">
+            <div class="language-example">
+                <h4>🇹🇷 Türkçe → İngilizce</h4>
+                <div class="test-text">
+                    Merhaba! Bugün hava çok güzel. Yeni bir proje üzerinde çalışıyorum ve çok heyecanlıyım.
+                </div>
+            </div>
+            
+            <div class="language-example">
+                <h4>🇺🇸 İngilizce → Türkçe</h4>
+                <div class="test-text">
+                    Hello! The weather is beautiful today. I am working on a new project and I am very excited.
+                </div>
+            </div>
+            
+            <div class="language-example">
+                <h4>🇩🇪 Almanca → Türkçe</h4>
+                <div class="test-text">
+                    Hallo! Das Wetter ist heute sehr schön. Ich arbeite an einem neuen Projekt und bin sehr aufgeregt.
+                </div>
+            </div>
+            
+            <div class="language-example">
+                <h4>🇫🇷 Fransızca → Türkçe</h4>
+                <div class="test-text">
+                    Bonjour! Le temps est très beau aujourd'hui. Je travaille sur un nouveau projet et je suis très excité.
+                </div>
+            </div>
+            
+            <div class="language-example">
+                <h4>🇪🇸 İspanyolca → Türkçe</h4>
+                <div class="test-text">
+                    ¡Hola! El clima está muy hermoso hoy. Estoy trabajando en un nuevo proyecto y estoy muy emocionado.
+                </div>
+            </div>
+            
+            <div class="language-example">
+                <h4>🇷🇺 Rusça → Türkçe</h4>
+                <div class="test-text">
+                    Привет! Сегодня очень красивая погода. Я работаю над новым проектом и очень взволнован.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>📊 Özetleme Testi</h2>
+        <p>Bu uzun metni seçin ve özetleme için test edin:</p>
+        <div class="test-text">
+            Yapay zeka teknolojileri son yıllarda hızla gelişmekte ve günlük hayatımızın birçok alanında kullanılmaktadır. Makine öğrenmesi algoritmaları sayesinde bilgisayarlar artık insan benzeri kararlar verebilmekte ve karmaşık problemleri çözebilmektedir. Doğal dil işleme teknolojileri ile bilgisayarlar insan dilini anlayabilmekte ve yanıtlayabilmektedir. Görüntü işleme teknolojileri sayesinde bilgisayarlar görsel verileri analiz edebilmekte ve nesneleri tanıyabilmektedir. Bu teknolojiler sağlık, eğitim, finans, ulaşım ve daha birçok sektörde devrim yaratmaktadır. Gelecekte yapay zeka teknolojilerinin daha da gelişeceği ve hayatımızı daha da kolaylaştıracağı öngörülmektedir.
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>🔍 Dilbilgisi Kontrolü Testi</h2>
+        <p>Bu metni seçin ve dilbilgisi kontrolü için test edin:</p>
+        <div class="test-text">
+            Ben dün okula gittim ve öğretmenim bana çok güzel bir kitap verdi. Kitabı okumaya başladım ve çok beğendim. Arkadaşlarımda kitabı okumak istiyorlar. Biz hep birlikte kitap hakkında konuştuk ve çok eğlendik.
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>✨ Yazım Stili İyileştirme Testi</h2>
+        <p>Bu basit metni seçin ve yazım stili iyileştirme için test edin:</p>
+        <div class="test-text">
+            Bu proje çok iyi. Çok güzel çalışıyor. Ben çok memnunum. Herkes beğendi. Çok başarılı oldu.
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>🎯 Özel Amaç Testi</h2>
+        <p>Bu metni seçin ve özel prompt ile test edin (popup'ta "Özel Amaç" seçin ve prompt'unuzu yazın):</p>
+        <div class="test-text">
+            Bugün hava çok güzel ve ben parkta yürüyüş yapmak istiyorum. Arkadaşlarımla buluşup piknik yapabiliriz. Hava sıcaklığı 25 derece ve güneş açık. Mükemmel bir gün!
+        </div>
+    </div>
+
+    <div class="instructions">
+        <h3>🔧 Extension Ayarları:</h3>
+        <ul>
+            <li>Popup'ta "⚙️ Ayarlar" butonuna tıklayarak tool ayarlarına erişebilirsiniz</li>
+            <li>Farklı tool amaçları arasında geçiş yapabilirsiniz</li>
+            <li><strong>Çeviri için:</strong> "Çeviri" seçtikten sonra hedef dili belirleyin</li>
+            <li>Özel prompt yazarak AI'ya özel talimatlar verebilirsiniz</li>
+            <li>Ayarları kaydettikten sonra "Chat'e Dön" butonu ile ana ekrana dönebilirsiniz</li>
+        </ul>
+    </div>
+
+    <div class="instructions">
+        <h3>🌍 Desteklenen Diller:</h3>
+        <p>Çeviri özelliği şu dilleri destekler: Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, İtalyanca, Rusça, Arapça, Çince, Japonca, Korece, Portekizce, Hollandaca, İsveççe, Norveççe, Danca, Fince, Lehçe, Çekçe, Macarca, Romence, Bulgarca, Yunanca, İbranice, Hintçe, Tayca, Vietnamca, Endonezce, Malayca, Filipince</p>
+    </div>
+</body>
+</html>
