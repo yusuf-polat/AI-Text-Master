@@ -5,10 +5,10 @@
 **Çok Amaçlı AI Metin Asistanı - Düzenleme, Çeviri, Özetleme ve Daha Fazlası**
 
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/username/ai-text-master)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yusuf-polat/ai-text-master)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![API](https://img.shields.io/badge/API-Gemini-orange.svg)](https://ai.google.dev/)
-[![Languages](https://img.shields.io/badge/languages-30+-brightgreen.svg)](https://github.com/username/ai-text-master)
+[![Languages](https://img.shields.io/badge/languages-30+-brightgreen.svg)](https://github.com/yusuf-polat/ai-text-master)
 
 *Metin işleme işlerinizi kolaylaştıran güçlü AI asistanı*
 
@@ -531,10 +531,10 @@ graph LR
 
 | Platform | Link | Durum |
 |----------|------|-------|
-| 📧 **Email** | [email@example.com](mailto:email@example.com) | ✅ Aktif |
-| 🐛 **GitHub Issues** | [Issues](https://github.com/username/ai-text-master/issues) | ✅ Aktif |
+| 📧 **Email** | [polatyusuf1331@gmail.com](mailto:polatyusuf1331@gmail.com) | ✅ Aktif |
+| 🐛 **GitHub Issues** | [Issues](https://github.com/yusuf-polat/ai-text-master/issues) | ✅ Aktif |
+| 👨‍💻 **GitHub Profile** | [@yusuf-polat](https://github.com/yusuf-polat) | ✅ Aktif |
 | 💬 **Discord** | [Discord Server](https://discord.gg/ai-text-master) | 🟡 Geliştirme |
-| 📱 **Telegram** | [Telegram Group](https://t.me/ai_text_master) | 🟡 Geliştirme |
 
 </div>
 
@@ -542,10 +542,10 @@ graph LR
 
 <div align="center">
 
-![GitHub last commit](https://img.shields.io/github/last-commit/username/ai-text-master)
-![GitHub issues](https://img.shields.io/github/issues/username/ai-text-master)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/username/ai-text-master)
-![GitHub stars](https://img.shields.io/github/stars/username/ai-text-master)
+![GitHub last commit](https://img.shields.io/github/last-commit/yusuf-polat/ai-text-master)
+![GitHub issues](https://img.shields.io/github/issues/yusuf-polat/ai-text-master)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/yusuf-polat/ai-text-master)
+![GitHub stars](https://img.shields.io/github/stars/yusuf-polat/ai-text-master)
 
 </div>
 
@@ -559,7 +559,7 @@ graph LR
 
 | Katkıda Bulunan | Katkı Türü | Durum |
 |-----------------|------------|-------|
-| 👨‍💻 **Ana Geliştirici** | Proje kurucusu | ✅ Aktif |
+| 👨‍💻 **[Yusuf Polat](https://github.com/yusuf-polat)** | Proje kurucusu | ✅ Aktif |
 | 🤖 **Google Gemini** | AI API desteği | ✅ Aktif |
 | 🌍 **Topluluk** | Geri bildirim ve test | ✅ Aktif |
 
@@ -593,9 +593,9 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 **Metin işleme işlerinizi kolaylaştırır!**
 
-[⭐ Star](https://github.com/username/ai-text-master) • [🐛 Issue](https://github.com/username/ai-text-master/issues) • [📖 Docs](https://github.com/username/ai-text-master/wiki)
+[⭐ Star](https://github.com/yusuf-polat/ai-text-master) • [🐛 Issue](https://github.com/yusuf-polat/ai-text-master/issues) • [📖 Docs](https://github.com/yusuf-polat/ai-text-master/wiki)
 
-*Made with ❤️ by the AI Text Master Team*
+*Made with ❤️ by [Yusuf Polat](https://github.com/yusuf-polat)*
 
 </div>
 
